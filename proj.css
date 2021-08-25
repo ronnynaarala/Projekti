@@ -1,8 +1,8 @@
 body {
   background-color: #104c74;
 }
-a.tyyli1 {
+p.tyyli1 {
   margin: 5% 30%;
   color: rgb(160, 10, 200);
-  
+  text-align: center;
 }
