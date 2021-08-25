@@ -4,15 +4,23 @@
     <title>Projekti</title>
   </head>
   <body>
-    <p class="tyyli1">
-      Tieto- ja viestintätekniikan perustehtävät
-    </p>
-    <form>
-      <label for="nimi">Nimi</label><br>
-      <input type="text" id="nimi" name="nimi"><br>
-      <label for="tieto">Tieto</label><br>
-      <input type="text" id="nimi" name="nimi">
-    </form>
+    <div class="divyksi">
+      <p class="tyyli1c">
+        Tieto- ja viestintätekniikan perustehtävät
+      </p>
+    </div>
+    <div class="divyksi2">
+      <p class="tyyli1">
+        Lisää merkintä
+      </p>
+      <form class="forms1">
+        <label for="nimi">Nimi:</label><br>
+        <input type="text" id="nimi" name="nimi"><br>
+        <label for="tieto">Tieto:</label><br>
+        <input type="text" id="nimi" name="nimi"><br>
+        <button class="b1" id="tietonappi" type="button" onclick="Virhe()">Lisää tieto</button>
+      </form>
+    </div>
     <script src="proj.js">
     </script>
   </body>

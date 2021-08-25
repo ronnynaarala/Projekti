@@ -1,8 +1,50 @@
 body {
   background-color: #104c74;
 }
-p.tyyli1 {
-  margin: 5% 30%;
+p.tyyli1c {
   color: rgb(160, 10, 200);
   text-align: center;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+p.tyyli1 {
+  color: rgb(160, 10, 200);
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 20px 10px;
+}
+div.divyksi {
+  background-color: pink;
+  border: 5px solid pink;
+  margin: 0px 0px 15px 0px
+}
+div.divyksi2 {
+  background-color: pink;
+  border: 10px solid pink;
+  margin: auto;
+  max-width: 70%;
+}
+form.forms1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: darkslategray;
+  margin: 10px;
+}
+button.b1 {
+  color: white;
+  background-color: rgb(100,100,100);
+  border: 10px solid rgb(100,100,100);
+  border-radius: 5px;
+  margin: 10px 0px;
+  width: 100%;
+}
+button.b1f {
+  color: white;
+  background-color: red;
+  border: 10px solid red;
+  border-radius: 5px;
+  margin: 10px 0px;
+  width: 100%;
 }
