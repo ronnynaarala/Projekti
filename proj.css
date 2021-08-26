@@ -32,6 +32,19 @@ form.forms1 {
   color: darkslategray;
   margin: 10px;
 }
+form.forms2 {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 10px;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 button.b1 {
   color: white;
   background-color: rgb(100,100,100);
@@ -47,4 +60,30 @@ button.b1f {
   border-radius: 5px;
   margin: 10px 0px;
   width: 100%;
+}
+p.tyyli2 {
+  color: rgb(160, 10, 200);
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 15%;
+}
+div.virhe {
+  background-color: darkred;
+  border: 12px solid darkred;
+  color: white;
+  max-width: 95%;
+  font-family: sans-serif;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+div.infod {
+  background-color: lavender;
+  border: 10px solid lavender;
+  color: black;
+  font-family: sans-serif;
+  margin-top: 15px;
+  margin-left: 20%;
+  margin-bottom: 20px;
+  max-width: 65%;
 }
