@@ -35,7 +35,8 @@ form.forms1 {
 form.forms2 {
   font-family: sans-serif;
   font-weight: bold;
-  margin: 10px;
+  margin: auto;
+  color: black;
 }
 input[type=text], select {
   width: 100%;
@@ -85,5 +86,14 @@ div.infod {
   margin-top: 15px;
   margin-left: 20%;
   margin-bottom: 20px;
+  max-width: 65%;
+}
+div.infod1 {
+  background-color: lavender;
+  border: 10px solid lavender;
+  color: black;
+  font-family: sans-serif;
+  margin-top: 10px;
+  margin-left: 20%;
   max-width: 65%;
 }
